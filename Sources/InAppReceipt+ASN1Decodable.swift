@@ -109,7 +109,7 @@ extension InAppReceiptPayload: ASN1Decodable
 		var opaqueValue = Data()
 		var receiptHash = Data()
 		var expirationDate: Date?
-		var receiptCreationDate: Date!
+		var receiptCreationDate: Date?
 		var ageRating: String = ""
 		var environment: String = ""
 		

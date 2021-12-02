@@ -141,7 +141,7 @@ public extension InAppReceipt
     }
     
     
-    var creationDate: Date
+    var creationDate: Date?
     {
 		return payload.creationDate
     }
