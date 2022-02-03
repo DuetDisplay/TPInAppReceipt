@@ -14,7 +14,7 @@ let package = Package(
 		.library(name: "TPInAppReceipt-Objc", targets: ["TPInAppReceipt-Objc"]),
     ],
 	dependencies: [
-		.package(url: "https://github.com/tikhop/ASN1Swift", .upToNextMajor(from: "1.0.0"))
+		.package(url: "https://github.com/DuetDisplay/ASN1Swift", .upToNextMajor(from: "1.0.0"))
 	],
     targets: [
         .target(

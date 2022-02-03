@@ -3,11 +3,11 @@
     "pins": [
       {
         "package": "ASN1Swift",
-        "repositoryURL": "https://github.com/tikhop/ASN1Swift",
+        "repositoryURL": "https://github.com/DuetDisplay/ASN1Swift",
         "state": {
           "branch": null,
-          "revision": "b53bee03a942623db25afc5bfb80227b2cb3b425",
-          "version": "1.2.4"
+          "revision": "de34b5087f2e48a9fbbfaf7e1db24411f65824d9",
+          "version": "1.2.5"
         }
       }
     ]
