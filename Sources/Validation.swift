@@ -6,14 +6,13 @@
 //  Copyright © 2017-2021 Pavel Tikhonenko. All rights reserved.
 //
 
-#if os(iOS) || os(tvOS)
-import UIKit
-#elseif os(watchOS)
-import UIKit
+#if os(watchOS)
 import WatchKit
 #elseif os(macOS)
 import IOKit
 import Cocoa
+#else
+import UIKit
 #endif
 
 import CommonCrypto
